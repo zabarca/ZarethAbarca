@@ -1,0 +1,672 @@
+/* SECTION MEDIDAS */
+.sectionMedidas {
+	width: 100%;
+	height: 100vh;
+}
+
+
+/* NAV */
+
+/* mobile */
+@media (max-width: 1024px) {
+	.navPrincipal{
+		margin: 0;	
+	}
+
+	.navPrincipal a{
+		color: white;
+		text-decoration: none;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1.7vh;
+	}
+
+	.navPrincipal a:hover{
+		color: white;
+	}
+
+	.navPrincipal span{
+		font-family: 'Josefin Sans', sans-serif;
+		color: #C8204D;
+	}
+
+	.logo-nav{
+		margin-top: .5%;
+	}
+}
+
+/* desktop */
+@media (min-width: 1030px){
+	/* nav */
+	.navPrincipal{
+		margin: 0;	
+	}
+
+	.navPrincipal a{
+		color: white;
+		text-decoration: none;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 2vh;
+	}
+
+	.navPrincipal a:hover{
+		color: white;
+	}
+
+	.navPrincipal span{
+		font-family: 'Josefin Sans', sans-serif;
+		color: #C8204D;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	.logo-nav{
+		margin-top: .4%;
+	}
+}
+
+
+/* INTRO */
+
+/* mobile */
+@media (max-width: 1024px) {
+	#intro{
+		width: 100%;
+		height: 101vh;
+		background-color: black;
+		padding-top: 29%;
+	}
+
+	.contenedorTitulo div p{
+		font-family: 'Josefin Sans', sans-serif;
+		color: white;
+		font-size: 2.4vh;
+		padding-top: 8%;
+	}
+
+	.ContenedorImg-intro div{
+		width: 100%;
+		height: auto;
+	}
+
+	#intro>.contenedorImgIntro>div>img {
+		text-align: center;
+		width: 95%;
+		height: auto;
+		margin-top: 22%;
+		margin-left: 2%;
+	}
+
+	.contenedorPintro{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* desktop */
+@media (min-width: 1030px){
+	
+	#intro{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	padding-top: 2%;
+	margin-bottom: 1px; 
+	}
+
+	.contenedorTitulo div p{
+		font-family: 'Josefin Sans', sans-serif;
+		color: white;
+		font-size: 2.4vh;
+	}
+
+	.ContenedorImg-intro div{
+		width: 100%;
+		height: auto;
+	}
+
+	#intro>.contenedorImgIntro>div>img {
+		text-align: center;
+		width: 60%;
+		height: auto;
+		margin-top: 4%;
+		margin-left: 20%;
+	}
+}
+
+/*  ---- SOBRE MÍ ---- */
+
+/* desktop */
+@media (min-width: 1030px){
+	section#sobreMi section.row div {
+		height: 100%;
+	}
+
+	section#sobreMi section.row div.rosa img#fotozareth {
+		width: 27%;
+		margin-left: 89%;
+		margin-top: 16%;
+	}
+
+	section#sobreMi section.row div.rosa img#sobreMiImg {
+		width: 80%;
+		margin-left: 8%;
+		margin-top: 8%;
+	}
+
+	p#parrafoSobreMi.col.m7.offset-m3 
+	{
+		padding-top: 40%;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 3vh;
+		text-align: center;
+	}
+
+	p#parrafoSobreMiDos.col.m7.offset-m3 
+	{
+		padding-top: 4%;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 3vh;
+		text-align: justify;
+	}
+}
+/* celular */
+@media (max-width: 1024px) {
+    section#sobreMi section.row div.rosa img#fotozareth {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 23%;
+    }    
+    
+    section#sobreMi section.row div.rosa img#sobreMiImg {
+    width: 47%;
+	margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 5%;
+	}
+	
+	p#parrafoSobreMi.col.m7.offset-m3 {
+	padding-top: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	}
+
+	p#parrafoSobreMiDos.col.m7.offset-m3 {
+		padding-top: 1%;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 3vh;
+		text-align: justify;
+		margin-top: -3%;
+		margin-bottom: 0;
+	}
+	
+	div#mobileSobremi.row.hide-on-med-and-up{
+		margin-top: -3%;
+	}
+}
+
+/* ---- HABILIDADES ---- */
+
+/* mobile */
+@media (max-width: 1024px) {
+	#habilidades{
+		padding-top: 20%;
+	}
+	
+	.pding-l {
+		padding-left: 0;
+	}
+	
+	.pding-t {
+		padding-left: 7%;
+		padding-top: 2%;
+	}
+	
+	.img-mobile-habilidades img {
+		width: 70%;
+	}
+	
+	.img-mobile-habilidades-dos img {
+		width: 36%;
+	}
+	
+	section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
+	margin-left: 9%;
+	margin-top: 49%;
+	width: 80%;
+}
+	
+	p.col.s12.m6.offset-m3.center-align{
+	text-align: center;
+	font-size: 2.8vh;
+	margin: 0;
+	padding: 0 0 0 3%;
+} 
+	
+	.margin-topSM {
+		margin-top: -5%;
+	}
+	
+	.font-dosvh {
+		font-size: 3vh;
+		text-align: center;
+	}
+	
+	.contenedorImagen-habilidades{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#habilidadesTitulo-mobile {
+		width: 60%;
+		margin-left: 18%;
+		margin-bottom: 0;
+	}
+	
+	.margin-top-habs{
+		margin-top: 10%;
+	}
+	
+}
+
+/* desktop */
+@media (min-width: 1030px){
+	section#habilidades {
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	section#habilidades section.row.sectionMedidas {
+		margin: 0;
+	}
+
+	section#habilidades section.row.sectionMedidas div.hide-on-small-only{
+		height: 100%;
+	}
+
+	section#habilidades section.row.sectionMedidas div.hide-on-small-only img {
+		margin-left: 9%;
+		margin-top: 49%;
+		width: 80%;
+	}
+
+	p.col.s12.m6.offset-m3.center-align{
+		text-align: center;
+		font-size: 3.5vh;
+		margin: 0;
+		padding: 0 0 0 3%;
+	} 
+
+	.pding-l {
+		padding-left: 13%;
+	}
+
+	.pding-top {
+		padding-top: 12%;
+	}
+
+	.pding-t {
+		padding-left: 7%;
+		padding-top: 12%;
+	}
+
+	.font-dosvh {
+		font-size: 4vh;
+	}
+
+	.padding-cero{
+		padding: 0;
+	}
+
+	.bottom-cero{
+		margin-bottom: 0;
+	}
+
+
+	.img-desktop-habilidades img{
+		width: 70%;
+	}
+}
+
+/* PORTAFOLIO */
+
+/* desktop */
+@media (min-width: 1030px){
+	section#portafolio section.row.sectionMedidas div.hide-on-small-only {
+		height: 100%;
+		padding-top: 20%;
+	}
+
+	section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
+		background: white;
+		height: 100%;
+	}
+
+	img#imgPortafolio {
+		width: 82%;
+	}
+
+	div.col.s10.m10.offset-s1.offset-m1.carousel.initialized {
+		margin: -35% 0 0 10%;
+		padding: 0;
+	}
+
+	img#titulo-portafolio-mobile {
+		width: 70%;
+		margin-top: 17%;
+		margin-left: 13%;
+	}
+
+	div.row.carouselMobile-desktop.hide-on-med-and-down{
+		margin-top: 8%;
+	}
+
+	.p {
+		margin: 0;
+	}
+
+	.p-size{
+		font-size: .8em;	
+	}
+
+	.pd-lft-btns{
+		padding-left: 8%;
+		margin-top: -6%;
+	}
+
+	.btn, .btn-large, .col.s3 {
+		background-color: white;
+		color: #C8204D;
+		font-size: 2vh;
+	}
+
+	.pdng-portafolio{
+		padding-top: 15%;
+	}
+
+	.img-portafolio{
+		opacity: 0.7;
+		filter: alpha(opacity=50);
+	}
+
+	.img-portafolio:hover{
+		opacity: 1.0;
+		filter: alpha(opacity=100);
+	cursor: pointer;
+	}
+
+	.imgProyecto{
+		width: 100%;
+	}
+}
+
+/* mobile */
+@media (max-width: 1024px) {
+	#portafolio section div.negro{
+		background: white;
+	}
+	
+	section#portafolio section.row.sectionMedidas div.col.s12.m6.l6.xl6 {
+		background-color: #EDEDED;
+	}
+	
+	.row-mobile{
+		margin-bottom: 0;
+	}
+	
+	img#titulo-portafolio-mobile {
+		width: 60%;
+		margin-top: 15%;
+		margin-bottom: -2%;
+	}
+	
+	.pdng-portafolio{
+		padding: 0%;
+		margin-top: -5%;
+	}
+	
+	.imgProyectoch{
+		width: 5%;
+	}
+	
+	.imgProyectola{
+		width: 70%;
+	}
+}
+
+
+/* ----- CONTACTO ----- */
+
+/* desktop */
+@media (min-width: 1030px){
+	section#contacto section.row div.col.s12.m6.l6.xl6.rosa {
+		height: 100%;
+		padding-top: 23%;
+	}
+
+	section#contacto section.row div.col.s12.m6.l6.xl6.rosa img {
+		width: 20%;
+		margin-left: 15%;
+		margin-top: 20%;
+	}
+
+	.img-contacto-desktop {
+		width: 20%;
+		margin-bottom: -10%;
+		padding: 0;
+	}
+	
+	.img-contacto-desktop-titulo {
+		width: 82%;
+		margin-top: 55%;
+		margin-left: 8%;
+	}
+
+	.pding-topCont {
+		padding-top: 20%;
+	}
+
+	.btn, .btn-large {
+		background-color: #C8204D;
+		color: white;
+		border-color: 2px solid #C8204D;
+		font-size: 2vh;
+		margin-left: 22%;
+		padding: 0 3%;
+	}
+	
+	.margn-top-btn{
+		margin-top: 10%;
+	}
+
+	.btn:hover {
+		background-color: white;
+		color: #C8204D;
+	}
+	
+	img#imgPortafolio {
+		width: 82%;
+	}
+}
+
+/* mobile */
+@media (max-device-width : 1024px) {
+	img.img-contacto-mobile{
+		width: 20%;
+	}
+	
+	section#contacto section.row div.col.s7.m6.l6.xl6.offset-s2{
+		padding-top: 25%;
+	}
+	
+	section#contacto section.row div.col.s7.m6.l6.xl6.offset-s2 div{
+		margin-bottom: 0;
+	}
+	
+	#tituloContacto {
+		width: 95%;
+		margin-left: 5%;
+	}
+	
+	.pding-top{
+		padding-top: 0;
+	}
+	
+	.btn, .btn-large {
+		background-color: #C8204D;
+		margin-left: 14%;
+		margin-top: 30%;
+		padding: 0 3%;
+	}
+	
+	.btn:hover {
+		background-color: black;
+		color: #C8204D;
+	}
+	
+}
+
+/* --- FOOTER ---*/
+
+/* mobile */
+@media (max-device-width : 1024px750px) {
+	footer{
+		padding-top: 2%;
+		background-color: dimgrey;
+		height: 100%;
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	footer div div {
+		width: 100%;
+	}
+
+	footer div div img {
+		width:10%;
+		margin-left: 6%;
+	}
+
+	footer div span {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 2vh;
+	}
+}
+
+/* desktop */
+@media (min-width: 1030px) and (orientation: landscape) {
+	footer{
+		margin: 0;
+		padding-top: 2%;
+		background-color: dimgrey;
+		height: 100%;
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1em;
+	}
+	
+	footer div div img {
+	width:8%;	
+}
+	
+	footer div span {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1em;
+	}
+	
+}
+
+/* INICIO EDICIÓN MODALES*/
+
+@media (min-width: 1030px) and (orientation: landscape) {
+	.modal {
+		background-color: white;
+		color: black;
+	}
+
+	.modal .modal-footer {
+		background-color: #C8204D;	
+	}
+
+	.modal > .modal-content > h5 {
+		color: #C8204D;
+	}
+
+	.btn-flat {
+		background-color: black;
+		color: white;
+	}
+
+	.btn-flat:hover {
+		background-color: white;
+		color: black;
+	}
+}
+
+@media (max-device-width : 1024px) {
+	.modal {
+		background-color: black;
+		color: white;
+	}
+
+	.modal .modal-footer {
+		background-color: #C8204D;	
+	}
+
+	.modal > .modal-content > h5 {
+		color: #C8204D;
+	}
+
+	.btn-flat {
+		background-color: black;
+		color: white;
+	}
+
+	.btn-flat:hover {
+		background-color: white;
+		color: black;
+	}
+}
+
+/* FIN EDICIÓN MODALES*/
+
+/* HELPERS */
+
+.cero {
+	margin: 0;
+	padding: 0;
+}
+
+/* COLORES */
+.rosa {
+	background-color: #C8204D;
+}
+
+.gris {
+	background-color: gainsboro;
+}
+
+.negro {
+	background-color: black;
+}
+
+.blanco {
+	background-color: white;
+}
+
+/* color texto */
+
+.blancoTxt {
+	color: white;
+}
+
+.negroTxt {
+	color: white;
+}
+
+.rosaTxt {
+	color: #C8204D;
+}
+
+.fuente{
+	font-family: 'Josefin Sans', sans-serif;
+}
