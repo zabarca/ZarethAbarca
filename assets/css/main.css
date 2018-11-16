@@ -2155,7 +2155,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #018778;
 					}
 
 /* Footer */
@@ -2233,20 +2233,20 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #000000;
+				background-image: url("");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #F0E8DA;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #F2D3DE;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: rgba(255, 162, 224, 0.733);
 			}
 
 /* Wide */
