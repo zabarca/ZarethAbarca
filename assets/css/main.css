@@ -5,6 +5,7 @@
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	2158 over buttons
 */
 
 html, body, div, span, applet, object,
@@ -175,7 +176,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #df80ff;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2155,7 +2156,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #018778;
+						color: #df80ff;
 					}
 
 /* Footer */
