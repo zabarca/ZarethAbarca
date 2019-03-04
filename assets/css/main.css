@@ -2234,20 +2234,20 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #000000;
+				background-color: #DD969C;
 				background-image: url("");
 			}
 
 			#main > section.two {
-				background-color: #F0E8DA;
+				background-color: #fff;
 			}
 
 			#main > section.three {
-				background-color: #F2D3DE;
+				background-color: #20232A;
 			}
 
 			#main > section.four {
-				background-color: rgba(255, 162, 224, 0.733);
+				background-color: rgba(219, 144, 141, 0.637);
 			}
 
 /* Wide */
